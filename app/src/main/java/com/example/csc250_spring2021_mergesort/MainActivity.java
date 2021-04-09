@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity
         this.answerTV.setText(String.valueOf(fact(num)));
 
     }
-        private int fact(int num)
+        private long fact(long num)
         {
 
             if(num <= 1)
